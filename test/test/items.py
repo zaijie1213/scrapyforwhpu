@@ -8,4 +8,6 @@ from scrapy.item import Item, Field
 class TestItem(Item):
     # define the fields for your item here like:
     # name = Field()
+    title = Field()
+    msg = Field()
     pass
